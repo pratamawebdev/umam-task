@@ -195,3 +195,115 @@ body {
   height: 50%;
   background-color: #3559c7;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .main {
+  background-color: white;
+  padding: 40px;
+}
+
+.footer .main .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .main .container .left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.footer .main .container .left ol {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+}
+
+.footer .main .container .left ol li {
+  color: #2947a9;
+  font-weight: 500;
+}
+
+.footer .main .container .left ol li span {
+  color: black;
+  font-weight: normal;
+}
+
+.footer .main .container .right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer .main .container .right .news-letter {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer .main .container .right .news-letter .form {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  height: 40px;
+}
+
+.footer .main .container .right .news-letter .form input {
+  height: 100%;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.footer .main .container .right .news-letter .form button {
+  display: flex;
+  background-color: #f9995d;
+  align-items: center;
+  border-radius: 4px;
+  color: white;
+  height: 100%;
+  padding: 0 16px;
+  cursor: pointer;
+  border: none;
+}
+
+.footer .main .container .right .socmed {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer .main .container .right .socmed ol {
+  display: flex;
+  gap: 8px;
+  list-style: none;
+}
+
+.footer .main .container .right .socmed ol li {
+  display: flex;
+}
+
+.footer .main .container .right .socmed ol li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-color: gray;
+  height: 40px;
+  aspect-ratio: 1/1;
+}
+
+.footer .secondary {
+  background-color: #2947a9;
+  padding: 40px;
+  display: flex;
+}
+
+.footer .secondary p {
+  color: white;
+}
